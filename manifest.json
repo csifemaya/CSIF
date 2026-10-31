@@ -1,7 +1,7 @@
 {
   "id": "./",
   "name": "CSIF Emaya",
-  "short_name": "CSIF Emaya",
+  "short_name": "CSIF",
   "description": "Portal de información sindical y recursos para la plantilla de Emaya.",
   "lang": "es",
   "start_url": "./index.html",

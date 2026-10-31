@@ -78,6 +78,21 @@
           </div>
         </a>
       </div>
+
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <a class="card shadow-sm link-card h-100" data-link="enlaces" href="#" target="_blank" rel="noopener noreferrer" aria-label="Abrir Enlaces de interés">
+          <div class="card-body text-center d-flex flex-column">
+            <div class="d-flex align-items-center justify-content-center mb-3">
+              <div class="icon-wrap" aria-hidden="true">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.07 0l3-3A5 5 0 0 0 13 2.93l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.07 0l-3 3A5 5 0 0 0 11 21.07l1.71-1.71"/></svg>
+              </div>
+            </div>
+            <h3 class="h5 card-title">Enlaces de interés</h3>
+            <p class="card-text">Accede a enlaces útiles para la plantilla.</p>
+            <span class="btn btn-primary mt-auto align-self-center">Ver enlaces</span>
+          </div>
+        </a>
+      </div>
     </div>
       </div>
     </section>
@@ -92,7 +107,8 @@
     const ENLACES = {
       fondoSocial: "fondo_social.html",
       permisos: "permisos.html",
-      test: "test.html"
+      test: "test.html",
+      enlaces: "enlaces.html"
     };
 
     document.querySelectorAll("[data-link]").forEach((card) => {
